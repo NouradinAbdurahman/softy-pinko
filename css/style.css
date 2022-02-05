@@ -109,11 +109,19 @@ button {
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
 }
 button a {
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.25px;
+}
+button:hover {
+    background-color: #8261ee;
 }
 .home-feature {
     position: relative;
@@ -140,6 +148,15 @@ button a {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0,0.2);
+    cursor: pointer;
+}
+.home-feature-card:hover .feature-img{
+    background-color: #ff589e;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 .feature-img{
     width: 30%;
@@ -176,7 +193,7 @@ button a {
     line-height: 42px;
     color: #1e1e1e;
     letter-spacing: 0.25px;
-    margin-bottom: 30px;
+    margin: 80px 0 30px 0;
 }
 .home-feature-right p {
     color: #999;
@@ -187,4 +204,85 @@ button a {
 .home-feature-content hr {
     border: none;
     border-top: 1px solid whitesmoke;
+}
+.work-process {
+    background-image: url("../assets/images/work-process-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-process-cards {
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   gap: 30px;
+}
+.work-process-content {
+    text-align: center;
+    padding: 100px 0;
+}
+.work-process-content h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 30px;
+}
+.work-process-content p {
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #ededed;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.work-process-card {
+    padding: 0 5px ;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 10px 10px 0px rgba(228, 228, 228, 0.301);
+    cursor: pointer;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.work-process-card h4 {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color: #4d4c4c;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.work-process-card p {
+    padding-top: 10px;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: .75px;
+}
+.work-process-img {
+    padding: 20px 0;
+}
+.work-process-card:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
