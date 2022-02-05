@@ -8,6 +8,8 @@ html {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Global */
@@ -147,7 +149,7 @@ button:hover {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.2);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0,0.1);
     cursor: pointer;
 }
 .home-feature-card:hover .feature-img{
@@ -188,7 +190,7 @@ button:hover {
     width: 50%;
 }
 .home-feature-right h2 {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 24px;
     line-height: 42px;
     color: #1e1e1e;
@@ -222,8 +224,8 @@ button:hover {
 }
 .work-process-content h2 {
     color: #fff;
-    font-weight: 500;
-    font-size: 28px;
+    font-weight: 300;
+    font-size: 2rem;
     letter-spacing: 0.25px;
     margin-bottom: 30px;
 }
@@ -285,4 +287,74 @@ button:hover {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
+}
+.testimonials-content {
+    padding: 150px 0;
+}
+.testimonials-content h2 {
+    padding: 0 0 30px 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.testimonials-content > p  {
+    font-size: 17px;
+    color: #777;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.testimonials-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.testimonials-card {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0,0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.testimonials-image {
+    text-align: center;
+    padding: 30px 0 ;
+}
+.testimonials-card p {
+    padding-bottom: 30px;
+    line-height: 2;
+    text-transform: capitalize;
+    color: #777;
+}
+.testimonials-card h3,span {
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.testimonials-card h3 {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #1e1e1e;
+}
+.testimonials-card span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px
+}
+.testimonials-card:hover span,.testimonials-card:hover h3 {
+    margin-left: 20px;
 }
