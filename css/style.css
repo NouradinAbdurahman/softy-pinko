@@ -291,7 +291,7 @@ button:hover {
 .testimonials-content {
     padding: 150px 0;
 }
-.testimonials-content h2 {
+.sections-title {
     padding: 0 0 30px 0;
     text-transform: capitalize;
     font-size: 2rem;
@@ -299,7 +299,7 @@ button:hover {
     text-align: center;
     letter-spacing: 3px;
 }
-.testimonials-content > p  {
+.sections-intro {
     font-size: 17px;
     color: #777;
     text-align: center;
@@ -357,4 +357,105 @@ button:hover {
 }
 .testimonials-card:hover span,.testimonials-card:hover h3 {
     margin-left: 20px;
+}
+.pricing {
+    background-color: #f2f2fe;
+}
+.pricing-content {
+    padding: 100px 0;
+
+}
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    text-align: center;
+}
+.pricing-card {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0,0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.pricing-title {
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.money-section {
+    background-color: #8261ee;
+    margin: 0  30px 30px 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.money {
+    font-size: 1.5rem;
+}
+.money span {
+    font-size: .9rem;
+}
+.money-section.active {
+    background-color: #ff589e;
+}
+.card-list {
+    padding-bottom: 50px;
+}
+.card-list li {
+    padding: 10px 0;
+    color: #777;
+}
+.pricing .button {
+    padding: 20px;
+    background-color: #8261ee;
+    cursor: pointer;
+    margin-bottom: 50;
+}
+.pricing .button:hover {
+    background-color: #ff589e;
+}
+.fun-fact {
+    background-image: url("../assets/images/fun-facts-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fun-fact-cards {
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+   gap: 10px;
+   text-align: center;
+   padding: 100px 0;
+}
+.fun-fact-card {
+    color: white;
+    text-transform: capitalize;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.fun-fact-card h3 {
+    font-size: 2.5rem;
+}
+.fun-fact-card span{
+    font-size: 1rem;
+}
+.fun-fact-card:hover.content {
+    margin-top: -10px;
+}
+
+.fun-fact-card img {
+    padding-top: 20px;
 }
