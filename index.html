@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Softy Pinko</title>
 </head>
@@ -14,29 +15,28 @@
                 <div class="header-img"><img src="./assets/images/logo.png" alt="Softy Pinko"></div>
                 <nav class="mine-nav">
                     <ul class="nav">
-                        <li class="item"><a href="#" class="active">home</a></li>
-                        <li class="item"><a href="#">about</a></li>
-                        <li class="item"><a href="#">work process</a></li>
-                        <li class="item"><a href="#">testimonials</a></li>
-                        <li class="item"><a href="#">pricing tables</a></li>
-                        <li class="item"><a href="#">blog entries</a></li>
+                        <li class="item"><a href="./index.html" class="active">home</a></li>
+                        <li class="item"><a href="#home-feature">about</a></li>
+                        <li class="item"><a href="#process">work process</a></li>
+                        <li class="item"><a href="#testimonials">testimonials</a></li>
+                        <li class="item"><a href="#pricing">pricing tables</a></li>
+                        <li class="item"><a href="#blog">blog entries</a></li>
                         <li class="item"><a href="#">contact us</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-        <section class="banner">
+        <section class="banner" id="about">
            <div class="container">
                <div class="banner-content">
                     <span>We provide the best <strong>strategy</strong> <br> to grow up your <strong>business</strong> </span>
                     <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo <br> for your company at absolutely free of charge</p>
                     <button><a href="#">discover more</a></button>
-                
                </div>
            </div>
         </section>
     </header>
-    <section class="home-feature">
+    <section class="home-feature" id="home-feature">
         <div class="container">
             <div class="home-feature-content">
                 <div class="home-feature-cards">
@@ -82,7 +82,7 @@
             </div>
         </div>
     </section>
-    <section class="work-process">
+    <section class="work-process" id="process">
         <div class="container">
             <div class="work-process-content">
                  <h2 class="sections-title">Work Process</h2>
@@ -134,7 +134,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="testimonials-content">
                 <h2 class="sections-title">What do they say?</h2>
@@ -162,7 +162,7 @@
             </div>
         </div>
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="pricing-content">
                 <h2 class="sections-title">Pricing Plans</h2>
@@ -256,7 +256,64 @@
                 </div>
             </div>
         </div>
-
     </section>
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="blog-content">
+                <h2 class="sections-title">Blog Entries</h2>
+                <p class="sections-intro">Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet <br> nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                <div class="blog-cards">
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-item-01.png" alt="blog-item-01">
+                        </div>
+                        <div class="blog-card-content">
+                             <h2>Vivamus ac vehicula dui</h2>
+                             <p>Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.</p>
+                        </div>
+                        <button class="button"><a href="#">READ MORE</a></button>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-item-02.png" alt="blog-item-02">
+                        </div>
+                        <div class="blog-card-content">
+                             <h2>Phasellus convallis augue</h2>
+                             <p>Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.</p>
+                        </div>
+                        <button class="button"><a href="#">READ MORE</a></button>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="./assets/images/blog-item-03.png" alt="blog-item-03">
+                        </div>
+                        <div class="blog-card-content">
+                             <h2>Nam gravida purus non</h2>
+                             <p>Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.</p>
+                        </div>
+                        <button class="button"><a href="#">READ MORE</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copy-right">
+                    <p>copyright  &copy; 2022 Softy Pinko company</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
