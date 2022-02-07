@@ -454,7 +454,7 @@
 
 @media screen and (max-width: 480px) {
     .banner {
-        padding-top: 150px;
+        padding-top: 250px;
     }
     .sections-title {
         font-size: 1.5rem;
@@ -486,11 +486,18 @@
     }
     .footer-social ul {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .copy-right {
         font-size: 10px;
     }
 
+}
+@media screen and (max-width: 400px) {
+    .banner {
+        padding-top: 150px;
+    }
 }
 @media screen and (max-width: 350px) {
     .feature-img{
