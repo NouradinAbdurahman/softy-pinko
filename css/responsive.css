@@ -146,7 +146,9 @@
         margin-top: 0px;
     }
     .feature-img{
-        padding: 10px;
+        width: 25%;
+        padding: 20px;
+        margin: 10px auto;
     }
     .home-feature-card-2{
         display: grid;
@@ -247,7 +249,7 @@
 
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .banner {
         padding-top: 150px;
     }
@@ -262,6 +264,11 @@
     }
     .banner-content p {
         font-size: .7rem;
+    }
+    .feature-img{
+        width: 30%;
+        padding: 20px;
+        margin: 10px auto;
     }
     .home-feature-right h2, .home-feature-left h2 {
         font-size: 1.2rem;
@@ -281,4 +288,10 @@
         font-size: 10px;
     }
 
+}
+@media screen and (max-width: 350px) {
+    .feature-img{
+        width: 35%;
+        padding: 20px;
+    }
 }
