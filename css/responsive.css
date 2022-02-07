@@ -327,6 +327,10 @@
     .header-content {
         width: 90%;
     }
+     button {
+        padding: 15px;
+        font-size: .7rem;
+    }
     .maine-nav {
         position: absolute;
         content: " ";
@@ -467,6 +471,12 @@
     }
     .banner-content p {
         font-size: .7rem;
+    }
+    .work-process-content h2 {
+        font-size: 1.5rem;
+    }
+    .work-process-content p {
+        font-size: 15px;
     }
     .feature-img{
         width: 30%;

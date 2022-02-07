@@ -478,13 +478,13 @@ button:hover {
 .fun-fact-card span{
     font-size: 1rem;
 }
+.fun-fact-card img {
+    padding-top: 20px;
+}
 .fun-fact-card:hover.content {
     margin-top: -10px;
 }
 
-.fun-fact-card img {
-    padding-top: 20px;
-}
 .blog-content {
     padding: 100px 0;
 
